@@ -32,7 +32,7 @@ const Search = () => {
                 setProfile(response.data)
             })
             .finally(() => {
-                //setIsLoading(false);
+                setIsLoading(false);
             });
     }    
 
